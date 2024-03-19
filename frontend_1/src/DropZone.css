@@ -1,0 +1,30 @@
+.dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .dropzone p {
+    margin-bottom: 10px;
+  }
+  
+  .dropzone em {
+    display: block;
+    color: #999;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  aside {
+    margin-top: 20px;
+  }
+  
+  h4 {
+    margin-top: 0;
+  }
+  
