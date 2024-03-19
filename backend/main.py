@@ -25,23 +25,26 @@ class Response(BaseModel):
     result: str | None
 
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["https://65f9c9aaf8767405e10078a8--soft-horse-4f3257.netlify.app/"],  # Set this to the origin(s) of your frontend application
-    allow_credentials=True,
-    allow_methods=["GET", "POST", "PUT", "DELETE"],
-    allow_headers=["*"],
-)  
+  
 
 origins = [
     "http://localhost",
     "http://localhost:8080",
     "http://localhost:3000",
     "http://localhost:3001",
-    "https://singular-figolla-62c5eb.netlify.app/"
+    "https://singular-figolla-62c5eb.netlify.app/",
+    "https://65f9c9aaf8767405e10078a8--soft-horse-4f3257.netlify.app/"
 ]
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["https://65f9c9aaf8767405e10078a8--soft-horse-4f3257.netlify.app/"],  # Set this to the origin(s) of your frontend application
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE"],
+    allow_headers=["*"],
+)
 
 ALLOWED_EXTENSIONS = {".txt", ".docx", ".pdf", ".csv"}
 MAX_FILE_SIZE = 100 * 1024 * 1024  # 100 MB in bytes
