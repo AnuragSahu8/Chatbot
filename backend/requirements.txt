@@ -21,7 +21,6 @@ websockets==12.0
 pathlib
 PyPDF2
 python-docx
-os
 pandas
 google-generativeai
 re

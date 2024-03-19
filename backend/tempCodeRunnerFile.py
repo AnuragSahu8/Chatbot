@@ -1,1 +1,0 @@
-csv_buffer = io.StringIO(csv_data)
