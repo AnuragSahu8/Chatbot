@@ -40,7 +40,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://65f9c9aaf8767405e10078a8--soft-horse-4f3257.netlify.app/"],  # Set this to the origin(s) of your frontend application
+    allow_origins=["*"],  # Set this to the origin(s) of your frontend application
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE"],
     allow_headers=["*"],
