@@ -41,7 +41,6 @@ The project structure within the `frontend` directory follows the official `crea
 
 The page will reload if you make edits. You will also see any lint errors in the console.
 
-## The assignment
 
 ### Backend
 
@@ -62,3 +61,5 @@ In main.py file i have create 4 functionality.
 3. Also added  some styling to the bare bones app structure. I used CSS due to its simplicity and foundational nature.
 4. add a functionality for handelling large file.
 5. handeled edges  case like unsupported file type (video/mp3, .ppt etc..).
+
+### Application Link: https://anurag-superlative-heliotrope-9d5c1c.netlify.app/
