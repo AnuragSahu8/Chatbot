@@ -62,4 +62,8 @@ In main.py file i have create 4 functionality.
 4. add a functionality for handelling large file.
 5. handeled edges  case like unsupported file type (video/mp3, .ppt etc..).
 
+### Note
+
+"In the initial run, it may take slightly longer."
+
 ### Application Link: https://anurag-superlative-heliotrope-9d5c1c.netlify.app/
